@@ -1,0 +1,105 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberSecure - Sécurité Informatique</title>
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+  <!-- Header avec menu -->
+  <header>
+    <div class="container">
+      <h1 class="logo">CyberSecure</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section Accueil -->
+  <section id="accueil" class="hero">
+    <div class="hero-content">
+      <h2>Votre sécurité, notre priorité</h2>
+      <p>Protection, audit et conseil en cybersécurité pour vous et votre entreprise.</p>
+      <a href="#services" class="btn">En savoir plus</a>
+    </div>
+  </section>
+
+  <!-- Section Services -->
+<section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">Nos Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Audit de sécurité</h3>
+          <p>Analyse complète de votre système informatique pour identifier les vulnérabilités.</p>
+        </div>
+        <div class="service-card">
+          <h3>Test d'intrusion</h3>
+          <p>Simulation d'attaques pour tester la résistance de vos systèmes face aux menaces réelles.</p>
+        </div>
+        <div class="service-card">
+          <h3>Conseil en cybersécurité</h3>
+          <p>Accompagnement personnalisé pour mettre en place une stratégie de sécurité efficace.</p>
+        </div>
+        <div class="service-card">
+          <h3>Sensibilisation & formation</h3>
+          <p>Ateliers et supports pour former vos équipes aux bons réflexes en cybersécurité.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section À propos -->
+<section id="a-propos" class="about">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2 class="section-title">À propos de CyberSecure</h2>
+        <p>
+          CyberSecure est une entreprise fictive spécialisée dans la protection des données et des infrastructures numériques. 
+          Notre mission est d’aider les organisations à identifier, prévenir et corriger les menaces de cybersécurité.
+        </p>
+        <p>
+          Grâce à une approche personnalisée et des années d’expertise dans le domaine, nous accompagnons nos clients vers une meilleure résilience numérique.
+        </p>
+      </div>
+      <div class="about-img">
+        <img src="https://img.freepik.com/free-vector/cyber-security-concept_23-2148532223.jpg" alt="CyberSecure équipe">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+<section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contactez-nous</h2>
+      <form id="contact-form">
+        <input type="text" name="nom" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+        <button type="submit" class="btn">Envoyer</button>
+        <p id="confirmation" class="confirmation-message"></p>
+      </form>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+
+  <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 CyberSecure. Tous droits réservés.</p>
+      <p>Développé avec 💻 par <a href="https://www.linkedin.com/" target="_blank">Souleymane Djigo</a></p>
+    </div>
+  </footer>
+  
+
+</body>
+</html>
